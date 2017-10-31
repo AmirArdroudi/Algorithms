@@ -1,12 +1,10 @@
 // ---------------------------------------------------
-//			Algorithm's 
-//			Insertion Srot
-//
+//						  Algorithm's 
+//					**** Insertion Srot ****
+//						
+//			professor : samad najar 
 //			date   : 31/oct/2017
 //			author : Amir Ardroudi  
-//
-//
-//
 //
 // ---------------------------------------------------
 #include <iostream>
@@ -34,7 +32,7 @@ void insertSort(int arr[], int n)
 
 int main()
 {
-	int array[] = { 12, 11, 13, 5, 6};
+	int array[] = { 5, 2, 4, 6, 1, 3};
 	int n = sizeof(array)/ sizeof(array[0]);
 
 	insertSort(array, n);
