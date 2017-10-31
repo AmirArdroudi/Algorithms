@@ -4,7 +4,7 @@
 //						
 //			professor : samad najar 
 //			date   : oct 31,2017
-//			author : Amir Ardroudi  
+//			author : Amir Ardroudi 
 //
 // ---------------------------------------------------
 
@@ -26,7 +26,7 @@ void bubbleSort(int arr[], int n)
 }
 int main()
 {
-	int array[] = {2, 4, 5, 10, 14, 7, 1};
+	int array[] = {2, 5, 4, 10, 3, 7, 1};
 	int n = sizeof(array) / sizeof(array[0]);
 	
 	bubbleSort(array, n);
