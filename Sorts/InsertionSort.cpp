@@ -1,9 +1,9 @@
 // ---------------------------------------------------
-//						  Algorithm's 
+//						  Algorithms 
 //					**** Insertion Srot ****
 //						
 //			professor : samad najar 
-//			date   : 31/oct/2017
+//			date   : oct 31,2017
 //			author : Amir Ardroudi  
 //
 // ---------------------------------------------------
