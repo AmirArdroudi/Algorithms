@@ -1,4 +1,12 @@
-#include <iostream>
+// ---------------------------------------------------
+//						  Algorithms
+//					    quickSort
+//
+//			professor : samad najar
+//			date   : oct 31,2017
+//			author : Amir Ardroudi
+//
+// ---------------------------------------------------
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -19,7 +27,7 @@ void quickSort(int arr[], int left, int right)
     i = left;
     j = right + 1;
     pivot = arr[left];
-    cout<<" pivot : "<<arr[left]<<"   ";
+
     do{
         do{
             i++;
@@ -36,24 +44,18 @@ void quickSort(int arr[], int left, int right)
     swap(&arr[left], &arr[j]);
     quickSort(arr, j + 1, right);
     quickSort(arr, left, j-1);
-
   }
-
-
 }
-
 
 int main()
 {
   int arr[] = {26, 5, 37, 1, 61, 11, 59, 15, 48, 19};
   int n = sizeof(arr)/sizeof(arr[0]);
+
   quickSort(arr, 0 , n -1);
+
   for(int i= 0; i < n; i++)
-  {
       cout<<arr[i]<<"  ";
-
-  }
-
 
   return 0;
 }
