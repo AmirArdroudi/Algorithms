@@ -1,6 +1,6 @@
 // ---------------------------------------------------
 //						  Algorithms
-//					    mergeSort
+//					    mergeSort(Recursive version)
 //
 //			professor : samad najar
 //			date   : nov 12,2017
@@ -79,9 +79,10 @@ int main()
 	cout<<"your unsorted array : ";
 	for (int i = 0; i < n; i++)
 		cout << arr[i] << " ";
+	cout<<endl;
 
 	mergeSort(arr, 0,  n - 1);
-
+    cout<<"Sorted array : ";
 	for (int i = 0; i < n; i++)
 		cout << arr[i] << " ";
 
