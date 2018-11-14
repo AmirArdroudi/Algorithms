@@ -1,2 +1,3 @@
-# Algorithms
-just implementation of some algorithms in c++
+# Algorithms & Data Structures in C++
+Goal: 
+  1. classical algorithms implementations
